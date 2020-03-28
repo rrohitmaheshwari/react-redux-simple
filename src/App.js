@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import ComponentOne from './Components/ComponentOne';
+import ComponentTwo from './Components/ComponentTwo';
 
-class App extends Component {
-  render() {
+ const App = props => {
     return (
       <div className="App">
         App
+        <ComponentOne/>
+        <ComponentTwo/>
       </div>
-    );
+    )
   }
-}
 
-export default App;
+  export default App;
