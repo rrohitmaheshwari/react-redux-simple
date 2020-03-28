@@ -20,21 +20,32 @@ const ComponentTwo = props => {
 
   return (
     <div className="ComponentTwo">
-      <p>ComponentTwo</p>
+      <h5>Component Two</h5>
+      <p> Counter: {counter}</p>
+
+      <label htmlFor="useState"> Text :</label>
       <input
         id="useState"
         onChange={event => setValueChange(event.target.value)}
         type="text"
         value={valueChange}
+        className="inputBox"
       />
-      <button type="submit" onClick={handleSetText}>
+      <br />
+      <button
+        type="submit"
+        className="btn btn-outline-primary"
+        onClick={handleSetText}
+      >
         Set Redux
       </button>
-      <button type="submit" onClick={handleClearText}>
+      <button
+        type="submit"
+        className="btn btn-outline-secondary"
+        onClick={handleClearText}
+      >
         Clear Redux
       </button>
-
-      <h4>Counter: {counter}</h4>
     </div>
   );
 };

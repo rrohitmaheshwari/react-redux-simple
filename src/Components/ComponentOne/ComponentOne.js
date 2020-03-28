@@ -10,12 +10,21 @@ const ComponentOne = props => {
 
   return (
     <div className="ComponentOne">
-      <h1>Component One</h1>
-      <h4>Counter: {counter}</h4> <h4>Text: {text}</h4>
-      <button onClick={() => dispatch(allActions.counterActions.increment())}>
+      <h5>Component One</h5>
+
+      <p>Counter: {counter}</p>
+      <p>Text: {text} </p>
+
+      <button
+        className="btn btn-outline-primary"
+        onClick={() => dispatch(allActions.counterActions.increment())}
+      >
         Increase Counter
       </button>
-      <button onClick={() => dispatch(allActions.counterActions.decrement())}>
+      <button
+        className="btn btn-outline-secondary"
+        onClick={() => dispatch(allActions.counterActions.decrement())}
+      >
         Decrease Counter
       </button>
     </div>

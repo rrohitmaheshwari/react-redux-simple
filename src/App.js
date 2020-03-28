@@ -6,7 +6,7 @@ import ComponentTwo from "./Components/ComponentTwo";
 const App = props => {
   return (
     <div className="App">
-      App
+      <h2>React redux sample app</h2>
       <ComponentOne />
       <ComponentTwo />
     </div>
