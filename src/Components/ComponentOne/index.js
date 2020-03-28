@@ -1,3 +1,3 @@
-import ComponentOne from './ComponentOne'
+import ComponentOne from "./ComponentOne";
 
 export default ComponentOne;
