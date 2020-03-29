@@ -4,14 +4,16 @@
 }
 
 .ComponentOne,
-.ComponentTwo {
+.ComponentTwo,
+.ComponentThree {
   width: 400px;
   float: left;
-  margin-left: 12%;
+  margin-left: 5%;
   margin-top: 25px;
   box-shadow: 5px 10px 8px 10px #888888;
   padding: 20px;
   border-radius: 4px;
+  min-height: 15vw;
 }
 
 .inputBox {

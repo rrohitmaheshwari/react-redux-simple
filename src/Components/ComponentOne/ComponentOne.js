@@ -10,7 +10,7 @@ const ComponentOne = props => {
 
   return (
     <div className="ComponentOne">
-      <h5>Component One</h5>
+      <h5>1. Fuctional Component</h5>
 
       <p>Counter: {counter}</p>
       <p>Text: {text} </p>

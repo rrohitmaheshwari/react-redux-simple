@@ -20,7 +20,7 @@ const ComponentTwo = props => {
 
   return (
     <div className="ComponentTwo">
-      <h5>Component Two</h5>
+      <h5>2. Function Component</h5>
       <p> Counter: {counter}</p>
 
       <label htmlFor="useState"> Text :</label>
